@@ -1,0 +1,12 @@
+[package]
+name = "zenroom_cli"
+version = "0.1.0"
+authors = ["Danilo Spinella <oss@danyspin97.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+clap = { git = "https://github.com/clap-rs/clap/" }
+zenroom = { git = "https://github.com/dyne/Zenroom", branch = "rust" }
