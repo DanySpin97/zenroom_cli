@@ -9,4 +9,4 @@ edition = "2018"
 [dependencies]
 anyhow = "1.0"
 clap = { git = "https://github.com/clap-rs/clap/" }
-zenroom = { git = "https://github.com/dyne/Zenroom", branch = "rust" }
+zenroom = { git = "https://github.com/dyne/Zenroom" }
